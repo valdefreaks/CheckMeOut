@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.valdefreaks.checkmeout.AddRubricActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+
+            android:gravity="center_vertical"
+            android:text="Escribe el título y la descripción de la Rúbrica"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_add_rubric_tittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_add_rubric_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+
+            android:gravity="center_vertical"
+            android:text="Agrega un elemento a la rúbrica"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_add_rubric_new_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btn_add_rubric_add_to_listview"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/boton_redondeado"
+            android:text="AGREGAR"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/lv_add_rubric"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </FrameLayout>
+
+
+</LinearLayout>

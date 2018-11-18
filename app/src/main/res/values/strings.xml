@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CheckMeOut</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_add_rubric_activity">Nueva rúbrica</string>
+    <string name="title_profile_activity">Mi perfil</string>
+    <string name="title_detail_rubric_activity">Rúbrica</string>
+</resources>

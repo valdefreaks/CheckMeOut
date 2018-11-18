@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.valdefreaks.checkmeout.RegistrationActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos de usuario" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_registration_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Usuario"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryText" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_registration_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Contraseña"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryText" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_registration_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Correo electrónico"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryText" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Datos del alumno" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_registration_student_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Nombre y apellidos"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryText" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_registration_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Edad"
+            android:inputType="number"
+            android:textColor="@color/colorPrimaryText" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_marginRight="5dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/et_registration_grade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Grado"
+                android:inputType="number"
+                android:textColor="@color/colorPrimaryText" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_marginLeft="5dp"
+
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/et_registration_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Grupo"
+                android:inputType="text"
+                android:textColor="@color/colorPrimaryText" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Datos del tutor" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_registration_tutor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Nombre y apellidos"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryText" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_registration_relationship"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Parentesco"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryText" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
